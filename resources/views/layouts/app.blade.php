@@ -11,6 +11,12 @@
 
     <title>@yield('title')</title>
 
+    <link
+      rel="icon"
+      href="/images/logo.svg"
+      sizes="32x32"
+    />
+
     {{-- Style --}}
     @stack('prepend-style')
     @include('includes.style')
